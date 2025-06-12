@@ -24,7 +24,11 @@ A functional, secure AI-powered software agent framework, written in Python. The
 ### 1. **Clone & Install**
 
 ```sh
-  git clone <YOUR_REPO_URL> cd ai-agent python3 -m venv venv source venv/bin/activate pip install -r requirements.txt
+  git clone https://github.com/FelipeMorandini/ai-agent.git
+  cd ai-agent
+  python3 -m venv venv
+  source venv/bin/activate
+  pip install -r requirements.txt
 ```
 
 ### 2. **Configure**
