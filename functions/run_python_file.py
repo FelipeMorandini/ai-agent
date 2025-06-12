@@ -20,7 +20,7 @@ def run_python_file(working_directory, file_path):
             f'Error: "{file_path}" is not a Python file.'
 
         completed = subprocess.run(
-            ['python', file_path_abs],
+            ['python3', file_path_abs],
             cwd=working_directory_abs,
             capture_output=True,
             text=True,
